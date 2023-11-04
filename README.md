@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 int main() {
+
     int playerScore = 0;
     int computerScore = 0;
     int playerRuns = 0;
     int computerRuns = 0;
-
+    
     srand(time(NULL));
 
     printf("Welcome to Hand Cricket Game (One Player)\n");
